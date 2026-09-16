@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fale com a organização do concerto da Osesp na Sala São Paulo.">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/specimen/Luxurious+Roman?categoryFilters=Feeling:%2FExpressive%2FSophisticated&preview.script=Latn" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </label>
+        <ul>
+            <li><a href="/html/index.html">Início</a></li>
+            <li><a href="/html/detalhes.html">Detalhes</a></li>
+            <li><a class="active" aria-current="page" href="/html/contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Contato</h1>
+
+        <section>
+            <h2>Fale conosco</h2>
+            <form id="formContato" novalidate>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Enviar mensagem</button>
+                <p id="formFeedback"></p>
+            </form>
+        </section>
+
+        <section>
+            <h2>Informações</h2>
+            <dl>
+                <dt><i class="fa-solid fa-location-dot"></i> Endereço</dt>
+                <dd>Praça Júlio Prestes, nº 16 — 2º andar, CEP 01218-020, São Paulo, SP</dd>
+                <dt><i class="fa-solid fa-phone"></i> Telefone</dt>
+                <dd><a href="tel:+551133679500">+55 11 3367-9500</a> (seg. a sex., 9h às 18h)</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Redes sociais</h2>
+            <div class="social">
+                <a href="https://www.instagram.com/salasaopaulo/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://open.spotify.com/intl-pt/artist/3NhV0B71sAoZu1FGHG4bK4" target="_blank" rel="noopener" aria-label="Spotify">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" aria-label="X (Twitter)">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
