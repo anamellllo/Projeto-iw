@@ -45,7 +45,7 @@ h1{
     padding: 140px 5vw 5vw;
     background:
         linear-gradient(180deg, #2b1c1220 0%, #2b1c12b0 55%, #2b1c12f0 100%),
-        url('/images/salasaopaulo.jpeg') center/cover fixed no-repeat;
+        url('../images/salasaopaulo.jpeg') center/cover fixed no-repeat;
 }
 
 section{
